@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gera_OS
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  try to take over the world!
 // @author       You
 // @match        https://erp.turbonettelecom.com.br/attendance
@@ -599,7 +599,7 @@ input[type="checkbox"]:disabled {
         linhasmart.appendChild(inputSmart);
 
         const labelSmart=document.createElement('label')
-        labelSmart.htmlFor="smart"
+        labelSmart.htmlFor="SMART"
         labelSmart.textContent="SMART"
         linhasmart.appendChild(labelSmart)
         separador.appendChild(linhasmart)
