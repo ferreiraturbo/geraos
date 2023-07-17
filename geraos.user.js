@@ -915,7 +915,7 @@ input[type="checkbox"]:disabled {
             var elements = document.querySelectorAll("div > div.dx-quill-container.ql-container > div.ql-editor.dx-htmleditor-content");
             // Itera sobre os elementos e aplica innerHTML em cada um deles
             elements.forEach(function(element) {
-                element.innerHTML = "<h1>SOLICITANTE:</h1> " + nomesolicitante + "<h1>RELATO DO CLIENTE: </h1>"+ relatosolicitante +"<h1>PROCEDIMENTO INTERNO REALIZADO: </h1>"+ procedimentosolicitante +"<h1>POSSÍVEL SOLUÇÃO:</h1>"+ solucaosolicitante +"<h1>SINAL DA FIBRA: </h1>"+ sinalsolicitante +"<h1>ALARMES: </h1>"+ alarmessolicitante +"<h1>ACESSO REMOTO: </h1>"+ remotosolicitante +"<h1>ATENDIMENTO VIA:</h1>"+ atendimentosolicitante +"<h1>CONTATO: </h1> "+ contatosolicitante +"<h1>ENDEREÇO:</h1>"+ enderecosolicitante +"<h1>CIDADE:</h1>"+ cidadesolicitante +"";
+                element.innerHTML = "<b>SOLICITANTE:</b> " + nomesolicitante + "<b>RELATO DO CLIENTE: </b>"+ relatosolicitante +"<b>PROCEDIMENTO INTERNO REALIZADO: </b>"+ procedimentosolicitante +"<b>POSSÍVEL SOLUÇÃO:</b>"+ solucaosolicitante +"<b>SINAL DA FIBRA: </b>"+ sinalsolicitante +"<b>ALARMES: </b>"+ alarmessolicitante +"<b>ACESSO REMOTO: </b>"+ remotosolicitante +"<b>ATENDIMENTO VIA:</b>"+ atendimentosolicitante +"<b>CONTATO: </b> "+ contatosolicitante +"<b>ENDEREÇO:</b>"+ enderecosolicitante +"<b>CIDADE:</b>"+ cidadesolicitante +"";
             });
 
             document.body.removeChild(overlay);
