@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gera_OS
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  try to take over the world!
 // @author       You
 // @match        https://erp.turbonettelecom.com.br/attendance
@@ -552,7 +552,7 @@ input[type="checkbox"]:disabled {
         tabList.appendChild(cidade);
 
         const h3Cidade= document.createElement("h2");
-        h3Cidade.textContent= "Qual cidade?";
+        h3Cidade.textContent= "Qual Cidade?";
         cidade.appendChild(h3Cidade);
 
         const divCidade = document.createElement('div');
