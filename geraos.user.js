@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Gera_OS
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      2.1
 // @description  try to take over the world!
 // @author       You
 // @match        https://erp.turbonettelecom.com.br/attendance
