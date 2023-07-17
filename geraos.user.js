@@ -5,6 +5,8 @@
 // @description  try to take over the world!
 // @author       You
 // @match        https://erp.turbonettelecom.com.br/attendance
+// @downloadURL  https://raw.githubusercontent.com/ferreiraturbo/geraos/master/geraos.user.js
+// @updateURL    https://raw.githubusercontent.com/ferreiraturbo/geraos/master/geraos.user.js
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=turbonettelecom.com.br
 // @grant        none
 // ==/UserScript==
